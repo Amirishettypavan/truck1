@@ -7,6 +7,7 @@ import Footer from "./Components/Footer";
 import Contact from "./pages/Contact";
 import Services from "./pages/Servies";
 
+
 export default function Home() {
   return (
     <div> 
@@ -15,7 +16,8 @@ export default function Home() {
     <About/>
     <Services/>
     <Contact/>
-    <Footer/>
+   <Footer/>
+    
   </div>
    
   );

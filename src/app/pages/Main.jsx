@@ -16,8 +16,8 @@ const Main = () => {
     };
   
     useEffect(() => {
-      const interval = setInterval(goToNext, 5000); // Change slide every 3 seconds
-      return () => clearInterval(interval); // Cleanup on unmount
+      const interval = setInterval(goToNext, 5000); 
+      return () => clearInterval(interval); 
     }, []);
   
     return (

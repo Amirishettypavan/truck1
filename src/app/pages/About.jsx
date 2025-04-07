@@ -2,7 +2,7 @@
 const About = () => {
   return (
     <div className="mt-5 mb-5" id="about">
-      {/* Container for the two-column layout */}
+    
       <div className="flex items-center justify-between space-x-8">
        
         <div className="w-1/2">
@@ -13,7 +13,7 @@ const About = () => {
           />
         </div>
 
-        {/* Right Section: About Content */}
+       
         <div className="w-1/2">
           <h2 className="text-green-500 text-xl font-bold mb-4">About</h2>
           <h1 className="text-3xl font-semibold text-gray-800 mb-4">
