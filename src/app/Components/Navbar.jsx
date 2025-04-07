@@ -33,8 +33,8 @@ const Navbar = () => {
           {/* Show Sign In and Sign Up links if the state is true */}
           {isUserMenuVisible && (
             <div className="absolute right-0 bg-white shadow-lg p-3 mt-2 rounded-md w-24 z-2">
-              <Link href='/login' ><h1 className="text-lg text-black cursor-pointer mb-2 font-serif">Sign in</h1></Link>
-              <Link href='/Signup' ><h1 className="text-lg text-black cursor-pointer mb-2 font-serif">Sign up</h1></Link>
+              <h1 className="text-lg text-black cursor-pointer mb-2 font-serif">Sign in</h1>
+              <h1 className="text-lg text-black cursor-pointer font-serif" >Sign up</h1>
             </div>
           )}
         </div>
